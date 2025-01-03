@@ -1,3 +1,4 @@
+from openai import AsyncOpenAI
 from pydantic_ai import Agent
 from pydantic_ai.models.ollama import OllamaModel
 
