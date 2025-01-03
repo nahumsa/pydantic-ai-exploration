@@ -8,3 +8,8 @@ not able to do so by itself. After adding the columns, I was able to reproduce i
 
 Adding the columns was pretty straight forward following the pydantic-ai documentation,
 and I really think it showcase the power of dynamic system prompts.
+
+One interesting feature that I observed is that the Llama3.2 model wasn't able
+to call the tool multiple times. I was able to make Gemini make multiple function calls
+but failed to do so with Llama3.2.
+I need to check more about this.
